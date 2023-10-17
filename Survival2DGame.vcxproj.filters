@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Graphic tools">
+      <UniqueIdentifier>{f155f47e-9b9c-470d-bf09-8bb653873cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Elements">
+      <UniqueIdentifier>{9c58cc16-9e3b-4b78-93b9-0edd35a83782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Elements\blocks">
+      <UniqueIdentifier>{e0a9731d-2fcd-4208-8a1e-f04cd3b9a1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Elements\blocks\childs">
+      <UniqueIdentifier>{b2889a20-114c-4aba-bc71-ba1ef594ed1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Elements\ui">
+      <UniqueIdentifier>{b48b83ef-6f3c-4314-aded-a8154836dda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Elements\entities">
+      <UniqueIdentifier>{4ae16ea3-95f9-4d81-8e44-309677897dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Elements\entities\childs">
+      <UniqueIdentifier>{e3c3be87-4b9d-4579-a49f-1cc69b080468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphic tools">
+      <UniqueIdentifier>{0d06ca03-c48a-4e6d-a24e-5d9c6122fd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Perlin noise">
+      <UniqueIdentifier>{54358439-e2b3-4952-8fb8-8bacf771decd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Elements">
+      <UniqueIdentifier>{0cbc3d14-8763-4aab-a07b-7d28fff409e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Perlin noise">
+      <UniqueIdentifier>{0b2f9f1b-051e-45d1-9d2e-c18d0f805e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Elements\inventory">
+      <UniqueIdentifier>{e1cb53a1-7f96-43c3-bc93-ea85992f7cb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="loop.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="res.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Fichiers sources\Elements\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="chunk.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Fichiers sources\Elements\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="displayer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise\PerlinNoise.cpp">
+      <Filter>Fichiers sources\Perlin noise</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise\ppm.cpp">
+      <Filter>Fichiers sources\Perlin noise</Filter>
+    </ClCompile>
+    <ClCompile Include="square.cpp">
+      <Filter>Fichiers sources\Elements\blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Fichiers sources\Elements\blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>Fichiers sources\Elements\entities\childs</Filter>
+    </ClCompile>
+    <ClCompile Include="grass.cpp">
+      <Filter>Fichiers sources\Elements\blocks\childs</Filter>
+    </ClCompile>
+    <ClCompile Include="worldgen.cpp">
+      <Filter>Fichiers sources\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="item_stack.cpp">
+      <Filter>Fichiers sources\Elements\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>Fichiers sources\Elements\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Fichiers sources\Elements\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory_menu.cpp">
+      <Filter>Fichiers sources\Elements\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="crafting.cpp">
+      <Filter>Fichiers sources\Elements\inventory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="log.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="loop.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="program_const.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="res.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise\PerlinNoise.h">
+      <Filter>Fichiers d%27en-tête\Perlin noise</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise\ppm.h">
+      <Filter>Fichiers d%27en-tête\Perlin noise</Filter>
+    </ClInclude>
+    <ClInclude Include="square.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="blocks.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Fichiers d%27en-tête\Graphic tools</Filter>
+    </ClInclude>
+    <ClInclude Include="block_properties.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="displayer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="worldgen.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="items.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="crafting.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="square_map.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="block_enum.h">
+      <Filter>Fichiers d%27en-tête\Elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
